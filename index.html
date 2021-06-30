@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!-- Main styles -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Responsive styles -->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./Fonts/ProximaNova/stylesheet.css">
+
+    <title>Crossball</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header id="header">
+
+            <!-- header logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo/Logo.svg" alt="logo">
+                </a>
+            </div>
+            <!-- // header logo -->
+
+            <!-- header navbar -->
+            <nav class="nav">
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a href="#" class="nav-item--link">Расписание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-item--link">Игровые отчёты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-item--link">Статистика</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <span>Ещё</span>
+                        <span class="nav-dropdown-arrow">
+                            <img src="./images/header/arrow down.svg" alt="arrow-down">
+                        </span>
+                        <ul class="dropdown-menu invisible">
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="nav-item--link">Еще элемент</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="nav-item--link">Еще элемент</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="nav-item--link">Еще элемент</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- // header navbar -->
+
+            <!-- dropdown season -->
+            <div class="dd-season">
+                <span>
+                    <img src="./images/header/football.svg" alt="ball">
+                </span>
+                <span>
+                    <img src="./images/header/arrow down.svg" alt="arrow-down">
+                </span>
+            </div>
+            <!-- // dropdown season -->
+
+            <!-- header ava -->
+            <div class="header-ava">
+                <a href="#">
+                    <img src="./images/header/ava.png" alt="ava">
+                </a>
+            </div>
+            <!-- // header ava -->
+            <div class="bag-burger--container">
+                <!-- header bag -->
+                <div class="bag">
+                    <a href="#">
+                        <img src="./images/header/bag.svg" alt="bag">
+                    </a>
+                    <div class="bag-counter">
+                        1
+                    </div>
+                </div>
+                <!-- // header bag -->
+
+                <!-- Mobile burger-toggle -->
+                <div class="burger-toggle">
+                    <img src="./images/header/burger.svg" alt="Mobile menu">
+                </div>
+                <!-- // Mobile burger-toggle -->
+            </div>
+            
+
+        </header>
+        <!-- // HEADER -->
+
+        <!-- MAIN -->
+        <main id="main">
+
+            <!-- side menu -->
+            <div class="side-menu">
+                <!-- Player -->
+                <div class="player">
+                    <div class="player-profile">
+                        <div class="player-ava">
+                            <svg class="player-ava--svg" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40.0388 1.00002C48.8463 1.00878 57.3914 3.99848 64.2833 9.48244C71.1752 14.9664 76.0079 22.6217 77.9947 31.2021C79.9816 39.7825 79.0056 48.7829 75.2256 56.7379C71.4456 64.693 65.0843 71.1344 57.1771 75.0136C49.2699 78.8927 40.2824 79.9811 31.6778 78.1017C23.0732 76.2223 15.3581 71.4857 9.78843 64.6629C4.21874 57.8402 1.12243 49.3331 1.00356 40.5264C0.884679 31.7197 3.75023 23.1321 9.13373 16.1615" stroke="#FF795B" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <img src="./images/main/player-ava.png" alt="Player ava">
+                        </div>
+                        <div class="player-info">
+                            <div class="player-rating">
+                                <span>89.40</span>
+                                <span class="rating-change">
+                                    <span class="rating-change-value">999</span>
+                                    <span class="rating-change-arrow">
+                                        <img src="./images/main/ratio-arrow.svg" alt="ratio arrow">
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="player-name">
+                                <span>Елишакашвили</span>
+                                <br>
+                                <span>Михо</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="player-edit">
+                        <span class="player-edit-icon">
+                            <img src="./images/main/edit.svg" alt="edit">
+                        </span>
+                        <span class="player-edit-text">Редактировать</span>
+                    </a>
+                </div>
+                <!-- // Player -->
+
+                <!-- Account menu -->
+                <nav class="account-menu">
+                    <ul class="acc-menu-items">
+
+                        <li class="acc-menu-item">
+                            <span class="item-name item-active" id="toggle-acc-item">
+                                <span class="acc-menu-img">
+                                    <img src="./images/main/chart.svg" alt="Acc menu image">
+                                </span>
+                                <span class="acc-menu-text">Статистика</span>
+                                <span class="acc-menu-arrow active">
+                                    <img src="./images/header/arrow down.svg" alt="Acc menu item arrow">
+                                </span>
+                            </span>
+
+                            <ul class="acc-menu-lvl2">
+                                <li class="acc-menu-lvl2-item item-active">
+                                    <a href="#">
+                                        Футбол
+                                    </a>
+                                </li>
+                                <li class="acc-menu-lvl2-item">
+                                    <a href="#">
+                                        Баскетбол
+                                    </a>
+                                </li>
+                                <li class="acc-menu-lvl2-item">
+                                    <a href="#">
+                                        Волейбол
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="acc-menu-item">
+                            <span class="item-name">
+                                <span class="acc-menu-img">
+                                    <img src="./images/main/calendar.svg" alt="Acc menu image">
+                                </span>
+                                <span class="acc-menu-text">Ближайшие игры</span>
+                                <span class="acc-menu-arrow">
+                                </span>
+                            </span>
+                        </li>
+
+                        <li class="acc-menu-item">
+                            <span class="item-name">
+                                <span class="acc-menu-img">
+                                    <img src="./images/main/report.svg" alt="Acc menu image">
+                                </span>
+                                <span class="acc-menu-text">Игровые отчёты</span>
+                                <span class="acc-menu-arrow">
+                                </span>
+                            </span>
+                        </li>
+
+                        <li class="acc-menu-item">
+                            <span class="item-name">
+                                <span class="acc-menu-img">
+                                    <img src="./images/main/history.svg" alt="Acc menu image">
+                                </span>
+                                <span class="acc-menu-text">История заказов</span>
+                                <span class="acc-menu-arrow">
+                                </span>
+                            </span>
+                        </li>
+
+                        <li class="acc-menu-item exit">
+                            <span class="item-name">
+                                <span class="acc-menu-img">
+                                    <img src="./images/main/exit.svg" alt="Acc menu image">
+                                </span>
+                                <span class="acc-menu-text">Выйти</span>
+                                <span class="acc-menu-arrow">
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- // Account menu -->
+            </div>
+            <!-- // side menu -->
+
+            <!-- Main page -->
+            <div class="main-page">
+
+                <!-- Stat -->
+                <div class="stat">
+
+                    <!-- Achievments -->
+                    <div class="achievments">
+                        <div class="achi-header">Награды и достижения</div>
+                        <div class="regular-achie">
+                            <div class="active-reg-achie">
+                                <div class="reg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                    <div class="achi-counter">5</div>
+                                </div>
+                                <div class="reg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                    <div class="achi-counter">5</div>
+                                </div>
+                                <div class="reg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                    <div class="achi-counter">99</div>
+                                </div>
+                            </div>
+                            <div class="disable-reg-achie">
+                                <div class="reg-achie-item">
+                                    <img src="./images/main/Main-page/achie-dis.png" alt="Active achie">
+                                </div>
+                                <div class="reg-achie-item">
+                                    <img src="./images/main/Main-page/achie-dis.png" alt="Active achie">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="unregular-achie">
+                            <div class="active-unreg-achie">
+                                <div class="unreg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                </div>
+                                <div class="unreg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                </div>
+                                <div class="unreg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                </div>
+                                <div class="unreg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                </div>
+                                <div class="unreg-achie-item">
+                                    <img src="./images/main/Main-page/achie-active.png" alt="Active achie">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // Achievments -->
+
+                    <!-- Statistics -->
+                    <div class="statistics">
+                        
+                        <!-- Season toggle -->
+                        <div class="season-toggle">
+                            <form class="seasons--radio-form">
+                                <input type="radio" name="season" class="season--radio" id="all-seasons" value="all-seasons" checked>
+                                <label for="all-seasons" class="season--radio-label">Все сезоны</label>
+                                <input type="radio" name="season" class="season--radio" id="this-season" value="this-season">
+                                <label for="this-season" class="season--radio-label">Сезон 2020/21</label>
+                            </form>
+                        </div>
+                        <!-- // Season toggle -->
+
+                        <!-- Stats cards -->
+                        <div class="stats-cards">
+
+                            <div class="stats-card">
+                                <p class="stats-card-name">Игры</p>
+                                <p class="stats-card-value">36</p>
+                            </div>
+
+                            <div class="stats-card">
+                                <p class="stats-card-name">Гол</p>
+                                <p class="stats-card-value">67</p>
+                            </div>
+
+                            <div class="stats-card">
+                                <p class="stats-card-name">Пас</p>
+                                <p class="stats-card-value">136</p>
+                            </div>
+
+                            <div class="stats-card">
+                                <p class="stats-card-name">Гол + пас</p>
+                                <p class="stats-card-value">136</p>
+                            </div>
+                            
+                        </div>
+                        <!-- // Stats cards -->
+
+                    </div>
+                    <!-- // Statistics -->
+
+                    <!-- Social networks icons with pattern-->
+                    <div class="stats-share">
+                        <p class="share">Поделиться</p>
+                        <div class="share-icons">
+                            <a href="#" class="share-link">
+                                <img src="./images/main/Main-page/social-icons/FB.svg" alt="Share FB">
+                            </a>
+                            <a href="#" class="share-link">
+                                <img src="./images/main/Main-page/social-icons/VK.svg" alt="Share VK">
+                            </a>
+                            <a href="#" class="share-link">
+                                <img src="./images/main/Main-page/social-icons/link.svg" alt="Share link">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- // Social networks icons with pattern-->
+
+                </div>
+                <!-- // Stat -->
+
+                <!-- Format dropdown -->
+                <div class="format">
+                    <div class="format-dropdown">
+                        <span>Формат</span>
+                        <span>
+                            <img src="./images/header/arrow down.svg" alt="Format arrow">
+                        </span>
+                    </div>
+                    <form class="format-dropdown-list">
+                        <input type="radio" name="format" class="format--radio" id="format-table" value="table" checked>
+                        <label for="table" class="format--radio-label">Таблица</label>
+                        <input type="radio" name="format" class="format--radio" id="format-table" value="table" checked>
+                        <label for="table" class="format--radio-label">Список</label>
+                    </form>
+                </div>
+                <!-- // Format dropaown -->
+
+                <!-- Ratio season table -->
+                <div class="scroll-table">
+                    <table class="ration-season-table" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Сезон</th>
+                                <th>
+                                    <span class="sort-icon">
+                                        <img src="./images/main/Main-page/sort-icon.svg" alt="Sort icon">
+                                    </span>
+                                    <span class="table-header-desktop">Кол-во игр</span>
+                                    <span class="table-header-mobile">И</span>
+                                </th>
+                                <th>
+                                    <span class="sort-icon">
+                                        <img src="./images/main/Main-page/sort-icon.svg" alt="Sort icon">
+                                    </span>
+                                    <span class="table-header-desktop">Гол</span>
+                                    <span class="table-header-mobile">Г</span>
+                                </th>
+                                <th>
+                                    <span class="sort-icon">
+                                        <img src="./images/main/Main-page/sort-icon.svg" alt="Sort icon">
+                                    </span>
+                                    <span class="table-header-desktop">Пас</span>
+                                    <span class="table-header-mobile">П</span>
+                                </th>
+                                <th>
+                                    <span class="sort-icon">
+                                        <img src="./images/main/Main-page/sort-icon.svg" alt="Sort icon">
+                                    </span>
+                                    <span class="table-header-desktop">Гол + пас</span>
+                                    <span class="table-header-mobile">Г+П</span>
+                                </th>
+                                <th>
+                                    <span class="sort-icon">
+                                        <img src="./images/main/Main-page/sort-icon.svg" alt="Sort icon">
+                                    </span>
+                                    <span class="table-header-desktop">Рейтинг</span>
+                                    <span class="table-header-mobile">Р</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Сезон 2021/2020</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>89.40</td>
+                            </tr>
+                            <tr>
+                                <td>Сезон 2020/2019</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>89.40</td>
+                            </tr>
+                            <tr>
+                                <td>Сезон 2019/2018</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>89.40</td>
+                            </tr>
+                            <tr>
+                                <td>Сезон 2018/2017</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>89.40</td>
+                            </tr>
+                            <tr>
+                                <td>Сезон 2017/2016</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>89.40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- // Ratio season table -->
+                
+
+            </div>
+            <!-- // Main page -->
+        </main>
+        <!-- // MAIN -->
+
+        <!-- FOOTER -->
+        <footer id="footer">
+
+            <!-- Footer top part -->
+            <div class="footer-top-part">
+
+                <div class="footer-contacts">
+
+                    <div class="footer-images">
+                        <a href="#" class="footer-logo">
+                            <img src="./images/footer/footer-logo.svg" alt="Footer logo">
+                        </a>
+                        <div class="footer-market-links">
+                            <a href="#">
+                                <img src="./images/footer/appstore.svg" alt="Appstore link">
+                            </a>
+                            <a href="#">
+                                <img src="./images/footer/googleplay.svg" alt="Google Play link">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <ul class="footer-col contacts">
+                        <li class="footer-col-header">Наши контакты</li>
+                        <li class="footer-col-text">
+                            <a href="#">
+                                <img src="./images/footer/phone.svg" alt="Phone">
+                                <span>+7 (495) 109-03-09</span>                            
+                            </a>
+                        </li>
+                        <li class="footer-col-text">
+                            <a href="#">
+                                <img src="./images/footer/mail.svg" alt="Mail">
+                                <span>go@crossball.ru</span>                            
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-info">
+
+                    <!-- Sections list -->
+                    <ul class="footer-col sections">
+                        <li class="footer-col-header">Разделы</li>
+                        <li class="footer-col-text"><a href="#">Главная</a></li>
+                        <li class="footer-col-text"><a href="#">Расписание</a></li>
+                        <li class="footer-col-text"><a href="#">Игровые отчёты</a></li>
+                        <li class="footer-col-text"><a href="#">Статистика</a></li>
+                    </ul>
+                    <!-- // Sections list -->
+
+                    <!-- Kinds of sport -->
+                    <ul class="footer-col sport-kinds">
+                        <li class="footer-col-header">Виды спорта</li>
+                        <li class="footer-col-text"><a href="#">Футбол</a></li>
+                        <li class="footer-col-text"><a href="#">Баскетбол</a></li>
+                        <li class="footer-col-text"><a href="#">Волейбол</a></li>
+                    </ul>
+                    <!-- // Kinds of sport -->
+
+                    <!-- Useful info -->
+                    <ul class="footer-col useful-info">
+                        <li class="footer-col-header">Полезное</li>
+                        <li class="footer-col-text"><a href="#">Как записаться?</a></li>
+                        <li class="footer-col-text"><a href="#">Ответы на вопросы</a></li>
+                        <li class="footer-col-text"><a href="#">Достижения</a></li>
+                    </ul>
+                    <!-- // Useful info -->
+
+                    <!-- Cost list -->
+                    <ul class="footer-col cost-list">
+                        <li class="footer-col-header">Чё почём</li>
+                        <li class="footer-col-text"><a href="#">Абонементы?</a></li>
+                        <li class="footer-col-text"><a href="#">Корп. клиентам</a></li>
+                        <li class="footer-col-text"><a href="#">Партнёры</a></li>
+                    </ul>
+                    <!-- Cost list -->
+                </div>
+            </div>
+            <!-- // Footer top part -->
+
+            <!-- Footer bottom part -->
+            <div class="footer-bottom-part">
+                <p class="copyright">&#169; Все права защищены</p>
+                <div class="footer-icons">
+                    <a href="#">
+                        <img src="./images/footer/IG.svg" alt="Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="./images/main/Main-page/social-icons/VK.svg" alt="VK">
+                    </a>
+                    <a href="#">
+                        <img src="./images/main/Main-page/social-icons/FB.svg" alt="FB">
+                    </a>
+                    <a href="#">
+                        <img src="./images/footer/YT.svg" alt="YT">
+                    </a>
+                    <a href="#">
+                        <img src="./images/footer/TG.svg" alt="TG">
+                    </a>
+                    <a href="#">
+                        <img src="./images/footer/WA.svg" alt="WA">
+                    </a>
+                </div>
+                <p class="copyright">Cделали в Spans</p>
+            </div>
+            <!-- // Footer bottom part -->
+
+        </footer>
+        <!-- // FOOTER -->
+
+    </div>
+
+    <!-- Main script -->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

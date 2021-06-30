@@ -1,0 +1,505 @@
+@media (max-width: 1380px) {
+  main .side-menu {
+    width: 23%;
+  }
+  main .side-menu .player-info {
+    width: 63%;
+  }
+  main .main-page {
+    width: 75%;
+  }
+  main .main-page .stat .achievments {
+    width: 29%;
+  }
+  main .main-page .stat .statistics {
+    width: 47%;
+  }
+  main .main-page .stat .stats-card {
+    width: 22%;
+    max-width: 95px;
+  }
+  main .main-page .stat .stats-share {
+    width: 17%;
+  }
+}
+@media (max-width: 1280px) {
+  main {
+    padding: 0 20px 0;
+  }
+  main .side-menu .player {
+    padding: 1rem;
+  }
+  main .side-menu .player-info {
+    width: 60%;
+  }
+  main .side-menu .player-name {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1160px) {
+  header .header-ava {
+    display: none;
+  }
+
+  main {
+    position: relative;
+  }
+  main .side-menu {
+    width: 25%;
+  }
+  main .main-page {
+    width: 73%;
+  }
+  main .main-page .stat .achievments {
+    width: 36%;
+  }
+  main .main-page .stat .statistics {
+    width: 60%;
+  }
+  main .main-page .stat .stats-share {
+    background-image: none;
+    width: 105px;
+    height: 46px;
+    position: absolute;
+    top: 120px;
+    left: 15%;
+  }
+
+  footer .footer-info {
+    width: 65%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 1024px) {
+  header .dd-season {
+    display: none;
+  }
+
+  main .side-menu {
+    width: 27%;
+  }
+  main .main-page {
+    width: 71%;
+  }
+}
+@media (max-width: 950px) {
+  header {
+    position: relative;
+  }
+  header .nav {
+    position: absolute;
+    top: 80px;
+    right: -120%;
+    height: auto;
+    margin: 0;
+    z-index: 2;
+    background-color: #FAF9F9;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+  }
+  header .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .nav-item {
+    width: 100%;
+    height: 40px;
+  }
+  header .nav-item--link {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .nav-item.dropdown > span {
+    display: none;
+  }
+  header .dropdown-menu {
+    top: 0;
+    height: auto;
+    width: 100%;
+  }
+  header .bag-burger--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .bag {
+    margin-right: 20px;
+  }
+  header .burger-toggle {
+    display: block;
+  }
+
+  main .side-menu {
+    width: 33%;
+  }
+  main .main-page {
+    width: 65%;
+  }
+  main .main-page .stat {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  main .main-page .stat .achievments {
+    width: 90%;
+  }
+  main .main-page .stat .statistics {
+    width: 90%;
+    margin-top: 20px;
+  }
+  main .main-page .stat .stats-share {
+    width: 84px;
+    top: 130px;
+    left: 20%;
+  }
+  main .main-page .stat .share-icons {
+    width: 100%;
+    margin-top: 6px;
+  }
+  main .main-page .stat .share-link {
+    width: 20px;
+    height: 20px;
+  }
+  main .main-page .stat .share-link img {
+    width: 20px;
+    height: 20px;
+  }
+  main .main-page .ration-season-table thead .table-header-desktop {
+    display: none;
+  }
+  main .main-page .ration-season-table thead .table-header-mobile {
+    display: inline;
+  }
+  main .main-page .ration-season-table thead .sort-icon {
+    vertical-align: top;
+  }
+
+  footer {
+    padding-top: 0;
+  }
+  footer .footer-top-part {
+    height: auto;
+  }
+  footer .footer-contacts {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-images {
+    text-align: center;
+  }
+  footer .footer-col.contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  footer .footer-info {
+    display: none;
+  }
+  footer .footer-col-header {
+    display: none;
+  }
+  footer .footer-col-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer-col-text img {
+    display: none;
+  }
+  footer .footer-col-text + .footer-col-text {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  main .side-menu {
+    min-width: 245px;
+  }
+  main .main-page {
+    width: 60%;
+  }
+  main .main-page .stat .stats-cards {
+    height: 60px;
+  }
+  main .main-page .stat .stats-card-name {
+    font-size: 12px;
+  }
+  main .main-page .stat .stats-card-value {
+    font-size: 20px;
+  }
+  main .main-page .scroll-table {
+    overflow-x: scroll;
+  }
+  main .main-page .ration-season-table {
+    table-layout: fixed;
+    font-size: 14px;
+  }
+  main .main-page .ration-season-table thead {
+    height: 27px;
+  }
+  main .main-page .ration-season-table thead .table-header-desktop {
+    display: none;
+  }
+  main .main-page .ration-season-table thead .table-header-mobile {
+    display: inline;
+  }
+  main .main-page .ration-season-table thead .sort-icon {
+    vertical-align: top;
+  }
+  main .main-page .ration-season-table tr th:first-child, main .main-page .ration-season-table tr td:first-child {
+    width: 150px;
+    padding-left: 10px;
+  }
+  main .main-page .ration-season-table tr th:nth-child(2), main .main-page .ration-season-table tr td:nth-child(2) {
+    width: 50px;
+  }
+  main .main-page .ration-season-table tr th:nth-child(3), main .main-page .ration-season-table tr td:nth-child(3) {
+    width: 50px;
+  }
+  main .main-page .ration-season-table tr th:nth-child(4), main .main-page .ration-season-table tr td:nth-child(4) {
+    width: 50px;
+  }
+  main .main-page .ration-season-table tr th:nth-child(5), main .main-page .ration-season-table tr td:nth-child(5) {
+    width: 50px;
+  }
+  main .main-page .ration-season-table tr th:nth-child(6), main .main-page .ration-season-table tr td:nth-child(6) {
+    width: 55px;
+  }
+  main .main-page .ration-season-table tbody tr {
+    height: 40px;
+  }
+}
+@media (max-width: 670px) {
+  header {
+    height: 60px;
+    padding: 0 10px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  header .logo {
+    width: 120px;
+    height: 20px;
+  }
+  header .logo a {
+    width: 100%;
+    height: 100%;
+  }
+  header .logo a img {
+    width: 100%;
+    height: 100%;
+  }
+  header .nav {
+    width: 100%;
+    right: -110%;
+    top: 59px;
+  }
+  header .bag-counter {
+    display: none;
+  }
+
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    min-height: 1195px;
+  }
+  main .side-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  main .side-menu .player {
+    padding: 20px 10px;
+    border-radius: 0;
+  }
+  main .side-menu .player-profile {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main .side-menu .player-ava {
+    margin-right: 10px;
+  }
+  main .side-menu .account-menu {
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    background-color: #FAF9F9;
+  }
+  main .side-menu .acc-menu-items {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 10px;
+  }
+  main .side-menu .acc-menu-item {
+    width: 180px;
+    background-color: #ffffff;
+  }
+  main .side-menu .acc-menu-item .item-name {
+    height: 40px;
+    width: 180px;
+  }
+  main .side-menu .acc-menu-item .item-name:hover {
+    background-color: #5A60E7;
+  }
+  main .side-menu .acc-menu-item + .acc-menu-item {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  main .side-menu .acc-menu-item.exit {
+    margin-top: 0;
+  }
+  main .side-menu .item-active {
+    background-color: #5A60E7;
+    color: #ffffff;
+  }
+  main .side-menu .acc-menu-lvl2 {
+    z-index: 2;
+    position: absolute;
+    top: 250px;
+    background-color: #ffffff;
+    width: 180px;
+    left: 10px;
+    border-radius: 5px;
+  }
+  main .side-menu .acc-menu-lvl2-item {
+    width: 100%;
+    height: 30px;
+  }
+  main .main-page {
+    width: 100%;
+  }
+  main .main-page .stat {
+    padding: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    border-radius: 0;
+  }
+  main .main-page .stat .statistics {
+    width: 100%;
+    margin-top: 0;
+  }
+  main .main-page .stat .achievments {
+    width: 100%;
+    margin-top: 20px;
+  }
+  main .main-page .stat .achi-header {
+    display: block;
+    color: #909090;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  main .main-page .stat .stats-share {
+    left: 70%;
+  }
+  main .main-page .format {
+    padding-left: 10px;
+  }
+  main .main-page .scroll-table {
+    padding-left: 10px;
+  }
+
+  footer {
+    position: relative;
+  }
+  footer .footer-top-part {
+    border-bottom: none;
+  }
+  footer .footer-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+  footer .footer-market-links {
+    margin: 0;
+  }
+  footer .footer-market-links a img {
+    width: 105px;
+    height: 30px;
+  }
+  footer .footer-market-links a + a {
+    margin-left: 5px;
+  }
+  footer .footer-logo {
+    margin-top: 37px;
+  }
+  footer .footer-logo img {
+    width: 120px;
+    height: 20px;
+  }
+  footer .footer-col.contacts {
+    margin-bottom: 93px;
+  }
+  footer .footer-bottom-part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .footer-icons {
+    position: absolute;
+    top: 86px;
+  }
+  footer .footer-icons a + a {
+    margin-left: 12px;
+  }
+  footer .copyright {
+    margin-bottom: 5px;
+  }
+}

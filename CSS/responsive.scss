@@ -1,0 +1,487 @@
+
+// Max-width 1380px:
+@media(max-width:1380px) {
+    main {
+        .side-menu {
+            width: 23%;
+            .player-info {
+                width: 63%;
+            }
+        }
+        .main-page {
+            width: 75%;
+            .stat {
+                .achievments {
+                    width: 29%;
+                }
+                .statistics {
+                    width: 47%;
+                }
+                .stats-card {
+                    width: 22%;
+                    max-width: 95px;
+                }
+                .stats-share {
+                    width: 17%;
+                }
+            }
+        }
+    }
+}
+
+// Max-width 1280px:
+@media(max-width:1280px) {
+    main {
+        padding: 0 20px 0;
+        .side-menu {
+            .player {
+                padding: 1rem;
+            }
+            .player-info {
+                width: 60%;
+            }
+            .player-name {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// Max-width 1160px:
+@media(max-width:1160px) {
+    header {
+        .header-ava {
+            display: none;
+        }
+    }
+    main {
+        position: relative;
+        .side-menu {
+            width: 25%;
+        }
+        .main-page {
+            width: 73%;
+            .stat {
+                .achievments {
+                    width: 36%;
+                }
+                .statistics {
+                    width: 60%;
+                }
+                .stats-share {
+                    background-image: none;
+                    width: 105px;
+                    height: 46px;
+                    position: absolute;
+                    top: 120px;
+                    left: 15%;
+                }
+            }
+        }
+    }
+    footer {
+        .footer-info {
+            width: 65%;
+            padding-right: 0;
+        }
+    }
+}
+
+// Max-width 1024px:
+@media(max-width:1024px) {
+    header {
+        .dd-season {
+            display: none;
+        }
+    }
+    main {
+        .side-menu {
+            width: 27%;
+        }
+        .main-page {
+            width: 71%;
+        }
+    }
+}
+
+// Max-width 950px:
+@media(max-width:950px) {
+    header {
+        position: relative;
+        .nav {
+            position: absolute;
+            top: 80px;
+            right: -120%;
+            height: auto;
+            margin: 0;
+            z-index: 2;
+            background-color: #FAF9F9;
+            transition: all .4s ease-in;
+        }
+        .navbar {
+            flex-direction: column;
+        }
+        .nav-item {
+            width: 100%;
+            height: 40px;
+        }
+        .nav-item--link {
+            width: 100%;
+            justify-content: center;
+        }
+        .nav-item.dropdown {
+            > span {
+                display: none;
+            }
+        }
+        .dropdown-menu {
+            top: 0;
+            height: auto;
+            width: 100%;
+        }
+        .bag-burger--container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bag {
+            margin-right: 20px;
+        }
+        .burger-toggle {
+            display: block;
+        }
+    }
+    main {
+        .side-menu {
+            width: 33%;
+        }
+        .main-page {
+            width: 65%;
+            .stat {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+                padding-bottom: 20px;
+                .achievments {
+                    width: 90%;
+                }
+                .statistics {
+                    width: 90%;
+                    margin-top: 20px;
+                }
+                .stats-share {
+                    width: 84px;
+                    top: 130px;
+                    left: 20%;
+                }
+                .share-icons {
+                    width: 100%;
+                    margin-top: 6px;
+                }
+                .share-link {
+                    width: 20px;
+                    height: 20px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            .ration-season-table {
+                thead {
+                    .table-header-desktop {
+                        display: none;
+                    }
+                    .table-header-mobile {
+                        display: inline;
+                    }
+                    .sort-icon {
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding-top: 0;
+        .footer-top-part {
+            height: auto;
+        }
+        .footer-contacts {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .footer-images {
+            text-align: center;
+        }
+        .footer-col.contacts {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 40px;
+        }
+        .footer-info {
+            display: none;
+        }
+        .footer-col-header {
+            display: none;
+        }
+        .footer-col-text {
+            display: flex;
+            justify-content: center;
+            img {
+                display: none;
+            }
+        }
+        .footer-col-text + .footer-col-text {
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+    }
+}
+
+// Max-width 768px:
+@media(max-width:768px) {
+    main {
+        .side-menu {
+            min-width: 245px;
+        }
+        .main-page {
+            width: 60%;
+            .stat {
+                .stats-cards {
+                    height: 60px;
+                }
+                .stats-card-name {
+                    font-size: 12px;
+                }
+                .stats-card-value {
+                    font-size: 20px;
+                }
+            }
+            .scroll-table {
+                overflow-x: scroll;
+            }
+            .ration-season-table {
+                table-layout: fixed;
+                font-size: 14px;
+                thead {
+                    height: 27px;
+                    .table-header-desktop {
+                        display: none;
+                    }
+                    .table-header-mobile {
+                        display: inline;
+                    }
+                    .sort-icon {
+                        vertical-align: top;
+                    }
+                }
+                tr {
+                    th:first-child, td:first-child {
+                        width: 150px;
+                        padding-left: 10px;
+                    }
+                    th:nth-child(2), td:nth-child(2) {
+                        width: 50px;
+                    }
+                    th:nth-child(3), td:nth-child(3) {
+                        width: 50px;
+                    }
+                    th:nth-child(4), td:nth-child(4) {
+                        width: 50px;
+                    }
+                    th:nth-child(5), td:nth-child(5) {
+                        width: 50px;
+                    }
+                    th:nth-child(6), td:nth-child(6) {
+                        width: 55px;
+                    }
+                }
+                tbody {
+                    tr {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Max-width 670px:
+@media(max-width:670px) {
+    header {
+        height: 60px;
+        padding: 0 10px;
+        box-shadow: none;
+        .logo {
+            width: 120px;
+            height: 20px;
+            a {
+                width: 100%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .nav {
+            width: 100%;
+            right: -110%;
+            top: 59px;
+        }
+        .bag-counter {
+            display: none;
+        }
+    }
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+        min-height: 1195px;
+        .side-menu {
+            width: 100%;
+            height: auto;
+            position: relative;
+            box-shadow: none;
+            .player {
+                padding: 20px 10px;
+                border-radius: 0;
+            }
+            .player-profile {
+                justify-content: flex-start;
+            }
+            .player-ava {
+                margin-right: 10px;
+            }
+            .account-menu {
+                width: 100%;
+                height: auto;
+                overflow-x: scroll;
+                background-color: #FAF9F9;
+            }
+            .acc-menu-items {
+                margin: 0;
+                display: flex;
+                padding: 20px 10px;
+            }
+            .acc-menu-item {
+                width: 180px;
+                background-color: #ffffff;
+                .item-name {
+                    height: 40px;
+                    width: 180px;
+                    &:hover {
+                        background-color: #5A60E7;
+                    }
+                }
+            }
+            .acc-menu-item + .acc-menu-item {
+                margin-top: 0;
+                margin-left: 10px;
+            }
+            .acc-menu-item.exit {
+                margin-top: 0;
+            }
+            .item-active {
+                background-color: #5A60E7;
+                color: #ffffff;
+            }
+            .acc-menu-lvl2 {
+                z-index: 2;
+                position: absolute;
+                top: 250px;
+                background-color: #ffffff;
+                width: 180px;
+                left: 10px;
+                border-radius: 5px;
+            }
+            .acc-menu-lvl2-item {
+                width: 100%;
+                height: 30px;
+            }
+        }
+        .main-page {
+            width: 100%;
+            .stat {
+                padding: 10px;
+                flex-direction: column-reverse;
+                border-radius: 0;
+                .statistics {
+                    width: 100%;
+                    margin-top: 0;
+                }
+                .achievments {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                .achi-header {
+                    display: block;
+                    color: #909090;
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                }
+                .stats-share {
+                    left: 70%;
+                }
+            }
+            .format {
+                padding-left: 10px;
+            }
+            .scroll-table {
+                padding-left: 10px;
+            }
+        }
+    }
+    footer {
+        position: relative;
+        .footer-top-part {
+            border-bottom: none;
+        }
+        .footer-images {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 20px;
+        }
+        .footer-market-links {
+            margin: 0;
+            a {
+                img {
+                    width: 105px;
+                    height: 30px;
+                }
+            }
+            a + a {
+                margin-left: 5px;
+            }
+        }
+        .footer-logo {
+            margin-top: 37px;
+            img {
+                width: 120px;
+                height: 20px;
+            }
+        }
+        .footer-col.contacts {
+            margin-bottom: 93px;
+        }
+        .footer-bottom-part {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .footer-icons {
+            position: absolute;
+            top: 86px;
+            a + a {
+                margin-left: 12px;
+            }
+        }
+        .copyright {
+            margin-bottom: 5px;
+        }
+    }
+}
